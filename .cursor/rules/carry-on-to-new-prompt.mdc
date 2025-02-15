@@ -1,4 +1,8 @@
 ---
+description: Context Preservation Between Chat Sessions
+globs: **/*
+---
+---
 description: "Context Preservation Between Chat Sessions"
 glob: "**/*"
 priority: 3

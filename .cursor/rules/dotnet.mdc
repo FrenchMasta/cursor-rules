@@ -14,7 +14,6 @@ priority: 4
 - Follow Clean Architecture principles
 - Implement proper dependency injection
 - Use proper middleware
-- Follow CQRS pattern where appropriate
 - Implement proper logging
 
 ## API Design
