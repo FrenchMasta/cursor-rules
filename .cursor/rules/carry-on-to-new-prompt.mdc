@@ -1,12 +1,43 @@
 ---
-description: Carry over understanding to a new composer/chat prompt
-globs: 
+description: "Context Preservation Between Chat Sessions"
+glob: "**/*"
+priority: 3
 ---
-# Current State of the Project
 
-Format this as 3 concise paragraphs, where you describe what we just did, what did not work, which files were updated/created, what mistakes to avoid, any key insights/lessons we've learned, what problems/errors we are facing, and anything else a programmer might need to work productively on this project.
+# Context Preservation Guidelines
 
-Write in a conversational yet informative tone.
-Such as a README file on GitHub that is information rich and without any fluff or noise.
+## Session Transition
+- Summarize the current state of the problem/solution
+- List attempted approaches and their outcomes
+- Identify remaining challenges or TODOs
+- Preserve key decisions and their rationale
 
-Do **NOT** include any assumptions or theories, just the facts.
+## Knowledge Transfer
+- Maintain awareness of established conventions
+- Remember project-specific requirements
+- Carry forward technical constraints
+- Preserve architectural decisions
+
+## Context Reset
+- Clear conversation memory for fresh start
+- Maintain essential project knowledge
+- Reset any temporary variables/states
+- Keep file structure understanding
+
+## Continuation Strategy
+- Start new session with context summary
+- Reference previous session's key points
+- Maintain Alfred's personality and approach
+- Continue with same level of understanding
+
+## Memory Management
+- Clear temporary discussion details
+- Preserve core project understanding
+- Maintain awareness of file structure
+- Keep track of major decisions made
+
+## Session Handover
+- Summarize current progress
+- List next steps
+- Highlight any pending questions
+- Maintain consistency in approach

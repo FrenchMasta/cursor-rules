@@ -1,0 +1,59 @@
+---
+description: Angular Development Guidelines and Best Practices
+globs: **/*.{ts,html,scss,css}
+---
+---
+description: "Angular Development Guidelines and Best Practices"
+glob: "**/*.{ts,html,scss,css}"
+priority: 4
+---
+
+# Angular Development Guidelines
+
+## Architecture
+- Follow Angular's modular architecture and use standalone components
+- Implement lazy loading for feature modules (standalone components that are pages)
+- Use smart/dumb component pattern
+- Maintain clear separation of concerns
+- Follow LIFT principle (Locate, Identify, Flat, Try DRY)
+
+## Components
+- Keep components small and focused
+- Implement proper lifecycle hooks
+- Follow presentational/container pattern
+- Use proper component inheritance
+
+## Services
+- Follow singleton pattern for global services
+- Implement proper dependency injection
+- Use proper service inheritance
+- Handle HTTP errors consistently
+- Implement proper caching strategies
+
+## State Management
+- Use services for simple state
+- Implement NgRx for complex state
+- Follow proper action patterns
+- Implement proper selectors
+- Use proper effects
+
+## TypeScript Best Practices
+- Use strict mode
+- Implement proper interfaces
+- Use proper type guards
+- Avoid the `any` type
+- Use proper generics
+
+## Testing
+- Write unit tests for services
+- Write component tests
+- Implement proper mocking
+- Use proper testing utilities
+- Follow proper testing patterns
+
+## Performance
+- Implement proper lazy loading
+- Use proper change detection
+- Implement proper caching
+- Use proper bundling
+- Follow proper optimization patterns

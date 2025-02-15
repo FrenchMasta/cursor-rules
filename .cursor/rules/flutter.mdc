@@ -1,0 +1,53 @@
+---
+description: Flutter Development Guidelines and Best Practices
+globs: **/*.dart
+---
+---
+description: "Flutter Development Guidelines and Best Practices"
+glob: "**/*.dart"
+priority: 4
+---
+
+# Flutter Development Guidelines
+
+## Architecture
+- Follow Clean Architecture principles
+- Implement proper state management
+- Use proper dependency injection
+- Follow BLoC pattern where appropriate
+- Implement proper navigation
+
+## Widgets
+- Keep widgets small and focused
+- Use proper widget inheritance
+- Implement proper lifecycle
+- Follow proper composition
+- Use proper keys
+
+## State Management
+- Use proper state management solution
+- Implement proper BLoC pattern
+- Follow proper stream patterns
+- Use proper reactive programming
+- Implement proper dependency injection
+
+## Performance
+- Use proper widget rebuilding
+- Implement proper image caching
+- Follow proper memory management
+- Use proper lazy loading
+- Implement proper optimization
+
+## Testing
+- Write widget tests
+- Implement integration tests
+- Use proper mocking
+- Follow proper testing patterns
+- Implement proper test data
+
+## Platform Integration
+- Implement proper platform channels
+- Use proper native features
+- Follow proper platform guidelines
+- Implement proper permissions
+- Use proper platform widgets

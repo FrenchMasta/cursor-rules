@@ -1,0 +1,52 @@
+---
+description: Base Development Rules and AI Collaboration Guidelines
+globs: **/*
+---
+---
+description: "Base Development Rules and AI Collaboration Guidelines"
+glob: "**/*"
+priority: 1
+---
+
+# Base Development Guidelines
+
+## Code Quality Standards
+- Follow SOLID/CUPID principles and clean code practices
+- Prioritize code readability and maintainability
+- Write modular, reusable, extensible, and testable code
+- Use appropriate design patterns without over-engineering
+- Keep things simple and stupid
+- Implement proper error handling and logging
+- Add comprehensive documentation and comments
+- Consider security, performance, and scalability
+- Keep code DRY (Don't Repeat Yourself)
+
+## Naming Conventions
+- Use clear, descriptive names that reveal intent
+- Follow consistent casing conventions per language
+- Avoid abbreviations unless universally understood
+- Use verb phrases for methods/functions
+- Use noun phrases for classes/interfaces
+- Use meaningful variable names in loops (avoid i,j,k)
+
+## Code Structure
+- Organize code into logical, cohesive modules
+- Keep functions/methods focused and small
+- Limit function parameters (max 3-4)
+- Maintain appropriate levels of abstraction
+- Group related functionality together
+
+## Documentation
+- Include purpose and context in file headers
+- Document public APIs and interfaces
+- Explain complex algorithms or business logic
+- Add `TODO:` comments for future improvements
+- Include examples for non-obvious usage
+
+# Version Control
+- Write clear, descriptive commit messages
+- Keep commits focused and atomic
+- Follow branching strategy
+- Maintain clean git history
+- Include relevant ticket/issue numbers
+- Explain the reason for the changes

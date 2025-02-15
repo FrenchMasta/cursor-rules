@@ -1,0 +1,53 @@
+---
+description: .NET Development Guidelines and Best Practices
+globs: **/*.{cs,cshtml,csproj,sln}
+---
+---
+description: ".NET Development Guidelines and Best Practices"
+glob: "**/*.{cs,cshtml,csproj,sln}"
+priority: 4
+---
+
+# .NET Development Guidelines
+
+## Architecture
+- Follow Clean Architecture principles
+- Implement proper dependency injection
+- Use proper middleware
+- Follow CQRS pattern where appropriate
+- Implement proper logging
+
+## API Design
+- Follow RESTful principles
+- Use proper versioning
+- Implement proper authentication/authorization
+- Use proper response types
+- Follow proper error handling
+
+## Entity Framework
+- Use proper DbContext patterns
+- Implement proper migrations
+- Use proper lazy loading
+- Follow proper repository pattern
+- Implement proper unit of work
+
+## Security
+- Implement proper authentication
+- Use proper authorization
+- Follow proper security headers
+- Implement proper input validation
+- Use proper encryption
+
+## Performance
+- Use proper caching
+- Implement proper async/await
+- Use proper connection pooling
+- Follow proper optimization patterns
+- Implement proper memory management
+
+## Testing
+- Write unit tests
+- Implement integration tests
+- Use proper mocking
+- Follow proper testing patterns
+- Implement proper test data
