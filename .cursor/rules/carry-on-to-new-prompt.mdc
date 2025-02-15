@@ -1,0 +1,12 @@
+---
+description: Carry over understanding to a new composer/chat prompt
+globs: 
+---
+# Current State of the Project
+
+Format this as 3 concise paragraphs, where you describe what we just did, what did not work, which files were updated/created, what mistakes to avoid, any key insights/lessons we've learned, what problems/errors we are facing, and anything else a programmer might need to work productively on this project.
+
+Write in a conversational yet informative tone.
+Such as a README file on GitHub that is information rich and without any fluff or noise.
+
+Do **NOT** include any assumptions or theories, just the facts.
