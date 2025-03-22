@@ -1,4 +1,9 @@
 ---
+description: 
+globs: **/*.{ts,html,scss,css,spec.ts}
+alwaysApply: false
+---
+---
 description: "Angular Development Guidelines and Best Practices"
 glob: "**/*.{ts,html,scss,css,spec.ts}"
 priority: 4
@@ -82,3 +87,10 @@ priority: 4
 - Implement proper caching
 - Use proper bundling
 - Follow proper optimization patterns
+
+## Properties & Variables
+- Never use abbreviations or single characters, even in lambdas
+- Match the property/variable name to the type's name - cater for plural if the property/variable is a collection
+- Determine the access modifier for the property. Default to protected when the property is only used in the TS & HTML files for a component. Default to public if the property is used in unrelated components/services. Default to private, if the property is only used in the file
+- Determine whether to use const vs let
+
