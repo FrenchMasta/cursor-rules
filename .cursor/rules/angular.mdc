@@ -1,10 +1,6 @@
 ---
-description: Angular Development Guidelines and Best Practices
-globs: **/*.{ts,html,scss,css}
----
----
 description: "Angular Development Guidelines and Best Practices"
-glob: "**/*.{ts,html,scss,css}"
+glob: "**/*.{ts,html,scss,css,spec.ts}"
 priority: 4
 ---
 
@@ -17,11 +13,38 @@ priority: 4
 - Maintain clear separation of concerns
 - Follow LIFT principle (Locate, Identify, Flat, Try DRY)
 
+## Project Structure
+- Follow established project structure with clear separation of pages and components
+- Pages go in the `pages` directory with `.page` suffix
+- Components go in `components` directory with `.component` suffix
+- Maintain feature-based organization within pages
+- Follow existing naming conventions and patterns
+
+## Page Components
+- Pages are top-level, route-based components
+- Use `.page` suffix for all page files
+- Replace the `Component` suffix on the TS file for the class name with `Page` suffix
+- Implement lazy loading for all pages
+- Handle data fetching and state management
+- Coordinate child components
+- Follow container/smart component pattern
+- Include proper route configuration
+
+## Regular Components
+- Use `.component` suffix for all component files
+- Keep components focused and reusable
+- Follow presentational/dumb component pattern
+- Minimize state management
+- Maximize reusability
+
 ## Components
 - Keep components small and focused
 - Implement proper lifecycle hooks
 - Follow presentational/container pattern
 - Use proper component inheritance
+- Always create standalone components unless the **package.json** file has Angular dependencies lower than version 16
+- Always create seaprate component (TS), template (HTML), and styling file (SCSS), and if asked for, a test file (spec.ts)
+  - Determine the styling file's extension by looking at the **angular.json** and other component's styling file, to keep codebase consistent
 
 ## Services
 - Follow singleton pattern for global services
@@ -39,10 +62,12 @@ priority: 4
 
 ## TypeScript Best Practices
 - Use strict mode
-- Implement proper interfaces
+- Implement proper interfaces or classes - depending on whether logic is required
 - Use proper type guards
 - Avoid the `any` type
 - Use proper generics
+- Always the appropriate access modifier (protected, public, or private)
+- Always provide the return type - if a custom type is needed, determine if this should be a model (interface/class and add to the `models` directory, if found) or a custom type (add to the `types` directory, if found)
 
 ## Testing
 - Write unit tests for services
